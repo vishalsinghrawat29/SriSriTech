@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --primary1: #F8E831;
+    --primary2: #1877F2;
+    --secondary1: rgb(10, 93, 202);
+    --secondary2: #F7A200;
+    --text1: #0A1931;
+    --text2: #ffffff;
+
+}
+
+::selection {
+    color: var(--text2);
+    background: var(--primary2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: var(--text1)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header style */
+.head {
+    width: 100%;
+}
+
+.item {
+    text-align: center;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+}
+
+
+.item .headertext {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: var(--text2);
+
+
+}
+
+.headertext h1 {
+    color: var(--text2);
+    font-size: 74px;
+    font-weight: 900;
+    padding: 8px 16px;
+    line-height: 87px;
+
+}
+
+.headertext div {
+    text-align: center;
+}
+
+.book {
+    margin-top: 30px;
+    border: none;
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary2);
+    color: var(--text2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(50% - 100px);
+}
+
+.book:hover {
+    background-color: var(--secondary1);
+    color: var(--text2);
+}
+
+
+
+.aboutHeading {
+    padding: 36px 16px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    color: var(--primary2);
+}
+
+
+.dotbox1 {
+    position: relative;
+}
+
+.dotbox1 img {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 130px;
+}
+
+.aboutImage {
+    width: 80%;
+    height: auto;
+    margin: 2% 10% 2% 10%;
+}
+
+
+.about_box {
+    padding: 14% 6% 2% 2%;
+}
+
+.about_box p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.iconBox {
+    width: 100%;
+    height: 312px;
+    position: relative;
+    background-color: var(--text2);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin: 36px;
+    border-radius: 12px;
+}
+
+.iconImgBox {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    top: -60px;
+    left: 20px;
+    background-color: var(--text2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.iconImgBox img {
+    width: 60px;
+    height: auto;
+}
+
+.icon-content {
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+    padding: 16px;
+}
+
+.icon-content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.icon-content p {
+    font-size: 17px;
+}
+
+.icon_btn {
+    color: var(--text1);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 4px 4px;
+}
+
+.icon_btn:hover {
+    background-color: var(--primary2);
+    color: var(--text2);
+}
+
+/* footer section styling */
+
+footer {
+    background: var(--secondary1);
+    padding: 2px 23px;
+    color: var(--text2);
+    text-align: center;
+    margin-top: 12px;
+}
+
+footer span {
+    color: var(--text2);
+    text-decoration: none;
+}
+
+footer span a {
+    color: var(--text2);
+    text-decoration: none;
+}
+
+.Linkdin:focus {
+    box-shadow: none;
+}
+
+
+
+@media (max-width: 947px) {
+    .item {
+        height: 500px;
+    }
+
+    .item img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .item div {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .headertext h1 {
+        font-size: 32px;
+        padding: 8px 16px;
+        line-height: 36px;
+
+    }
+
+    .aboutHeading {
+        padding: 30px 16px;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 700;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .item {
+        height: 400px;
+    }
+
+    .aboutImage {
+        width: 86%;
+        height: auto;
+        margin: 0% 7% 0% 7%;
+    }
+
+
+    .about_box {
+        padding: 7% 0%;
+        margin: 0px 16px;
+    }
+
+    .about_box p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .dotbox1 img {
+        display: none;
+    }
+
+    .iconBox {
+        height: 260px;
+        margin-bottom: 64px;
+    }
+
+    .iconImgBox {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 500px;
+        top: -40px;
+        left: 16px;
+
+    }
+
+    .iconImgBox img {
+        width: 44px;
+        height: auto;
+    }
+
+    .icon-content {
+        position: absolute;
+        left: 0px;
+        bottom: -2px;
+        padding: 16px;
+    }
+
+    .icon-content h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .icon-content p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .icon_btn {
+        font-size: 13px;
+        padding: 4px 4px;
+    }
+
+}
