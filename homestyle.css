@@ -194,6 +194,40 @@ a {
     color: var(--text2);
 }
 
+/* cloud partner */
+.serviceBox {
+    text-align: center;
+    background-color: var(--text2);
+    border-radius: 16px;
+    margin: 2px 40px 10% 40px;
+    width: auto;
+    height: 280px;
+    border: 2px solid #9fc0f1;
+}
+
+
+.serviceBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border: none;
+}
+
+
+.serviceBox img {
+    padding: 8px;
+    height: 160px;
+}
+
+.serviceBox p {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 6px;
+    color: var(--text1);
+    width: 96%;
+    margin: 6px 2%;
+    text-align: left;
+}
+
+
 /* footer section styling */
 
 footer {
@@ -316,6 +350,26 @@ footer span a {
     .icon_btn {
         font-size: 13px;
         padding: 4px 4px;
+    }
+
+    .serviceBox {
+        border-radius: 12px;
+        margin: 5% 16px;
+        border: 2px solid #C1E5C0;
+        height: 220px;
+    }
+
+    .serviceBox img {
+        padding: 8px;
+        height: 130px;
+    }
+
+    .serviceBox p {
+        font-size: 14px;
+        color: var(--text1);
+        width: 100%;
+        margin: 0px;
+        padding: 14px;
     }
 
 }
