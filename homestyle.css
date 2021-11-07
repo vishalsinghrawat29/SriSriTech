@@ -240,9 +240,9 @@ a {
 
 /* why us */
 .whyImage {
-    width: 94%;
+    width: 80%;
     height: auto;
-    margin: 0% 3% 0% 3%;
+    margin: 0% 10% 0% 10%;
 }
 
 
@@ -405,9 +405,9 @@ footer span a {
     }
 
     .whyImage {
-        width: 100%;
+        width: 96%;
         height: auto;
-        margin: 0%;
+        margin: 0% 2%;
     }
 
 
