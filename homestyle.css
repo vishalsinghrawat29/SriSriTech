@@ -120,6 +120,17 @@ a {
     height: 130px;
 }
 
+.dotbox {
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    left: 15px;
+    top: 200px;
+    height: 124px;
+}
+
 .aboutImage {
     width: 80%;
     height: auto;
@@ -227,6 +238,23 @@ a {
     text-align: left;
 }
 
+/* why us */
+.whyImage {
+    width: 94%;
+    height: auto;
+    margin: 0% 3% 0% 3%;
+}
+
+
+.why_box {
+    padding: 24% 20% 2% 20%;
+}
+
+.why_box p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
 
 /* footer section styling */
 
@@ -310,6 +338,10 @@ footer span a {
         display: none;
     }
 
+    .left {
+        display: none;
+    }
+
     .iconBox {
         height: 260px;
         margin-bottom: 64px;
@@ -370,6 +402,23 @@ footer span a {
         width: 100%;
         margin: 0px;
         padding: 14px;
+    }
+
+    .whyImage {
+        width: 100%;
+        height: auto;
+        margin: 0%;
+    }
+
+
+    .why_box {
+        padding: 2% 0%;
+        margin: 0px 16px;
+    }
+
+    .why_box p {
+        font-size: 15px;
+        line-height: 25px;
     }
 
 }
