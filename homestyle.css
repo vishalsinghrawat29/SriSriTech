@@ -354,9 +354,9 @@ footer span a {
 
     .serviceBox {
         border-radius: 12px;
-        margin: 5% 16px;
+        margin: 5% 12px;
         border: 2px solid #C1E5C0;
-        height: 220px;
+        height: 230px;
     }
 
     .serviceBox img {
