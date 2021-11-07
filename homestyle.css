@@ -433,6 +433,10 @@ footer span a {
         display: none;
     }
 
+    .rigth {
+        display: none;
+    }
+
     .iconBox {
         height: 260px;
         margin-bottom: 64px;
