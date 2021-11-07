@@ -120,15 +120,23 @@ a {
     height: 130px;
 }
 
-.dotbox {
+.dotbox2 {
     position: relative;
 }
 
-.left {
+.dotbox2 .left {
     position: absolute;
     left: 15px;
-    top: 200px;
-    height: 124px;
+    top: 0px;
+    height: 120px;
+}
+
+.dotbox2 .rigth {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    height: 120px;
+
 }
 
 .aboutImage {
@@ -253,6 +261,89 @@ a {
 .why_box p {
     font-size: 18px;
     line-height: 32px;
+}
+
+/* Contact  */
+.details i {
+    font-size: 22px;
+    padding: 6px;
+    margin: 0px 16px 0px 0px;
+    color: var(--primary2);
+}
+
+.details {
+    display: flex;
+    width: 70%;
+    margin: 36px 40px 20px 40px;
+}
+
+.details .head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.details .sub-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.abouttext {
+    font-size: 20px;
+    padding: 0px 180px 0px 184px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 44px;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    margin: 5px 0;
+}
+
+select {
+    width: 100%;
+    height: 44px;
+    margin: 5px 0;
+}
+
+.contactInput,
+.selectinput,
+.messageinput {
+    border-color: var(--primary2);
+    color: var(--secondary1);
+}
+
+.contactInput:focus,
+.selectinput:focus,
+.messageinput:focus {
+    box-shadow: none;
+    border-color: var(--secondary1);
+    color: var(--secondary1);
+}
+
+.connect {
+    margin-top: 24px;
+    border: none;
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary2);
+    color: var(--text2);
+}
+
+.connect:hover {
+    background-color: var(--secondary1);
+}
+
+.submit {
+    margin: 18px 0px 6px 12px;
 }
 
 
@@ -421,4 +512,47 @@ footer span a {
         line-height: 25px;
     }
 
+    .abouttext {
+        font-size: 18px;
+        padding: 0px 16px 0px 16px;
+    }
+
+
+
+    .details {
+        width: 100%;
+        margin: 0px;
+        padding: 14px 16px;
+    }
+
+    .details i {
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    .details .head {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .details .sub-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contactform {
+        margin-right: 0px;
+    }
+
+    .contactform .contactInput,
+    .contactform .selectinput,
+    .contactform .messageinput {
+        margin: 0px 16px;
+        padding: 5px 16px;
+        width: 94%;
+    }
+
+    .submit {
+        margin: 20px 0px 6px 30px;
+    }
 }
