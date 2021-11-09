@@ -103,8 +103,8 @@ a {
         margin: 0px 16px;
     }
     .about_box h1{
-        font-size: 26px;
-        line-height: 26*1.2px;
+        font-size: 22px;
+        line-height: 22*1.2px;
         font-weight: 600;
     }
 
@@ -117,12 +117,12 @@ a {
     }
 
     .aboutHead{
-        padding: 7% 5% 1% 5%;
+        padding: 14% 5% 2% 5%;
     
     }
     .aboutHead h1 span {
-        font-size: 54px;
-        line-height: 54*1.2px;
+        font-size: 44px;
+        line-height: 44*1.2px;
     }
 
 
