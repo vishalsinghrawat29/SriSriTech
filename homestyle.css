@@ -236,8 +236,8 @@ a {
     font-weight: 400;
     padding: 6px;
     color: var(--text1);
-    width: 96%;
-    margin: 6px 2%;
+    width: 100%;
+    margin: 1% 2%;
     text-align: left;
 }
 
