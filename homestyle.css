@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary1: #F8E831;
-    --primary2: #1877F2;
-    --secondary1: rgb(10, 93, 202);
+    --primary1: #1877F2;
+    --primary2: #F8E831;
+    --secondary1: rgb(12, 98, 211);
     --secondary2: #F7A200;
     --text1: #0A1931;
     --text2: #ffffff;
 
 }
 
+
 ::selection {
     color: var(--text2);
-    background: var(--primary2);
+    background: var(--primary1);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text1)
 }
 
@@ -34,7 +35,9 @@ a {
     text-decoration: none;
 }
 
-/* header style */
+
+/* Home style */
+
 .head {
     width: 100%;
 }
@@ -84,7 +87,7 @@ a {
     height: 48px;
     font-size: 16px;
     font-weight: 600;
-    background-color: var(--primary2);
+    background-color: var(--primary1);
     color: var(--text2);
     display: flex;
     align-items: center;
@@ -97,54 +100,41 @@ a {
     color: var(--text2);
 }
 
-
-
-.aboutHeading {
-    padding: 36px 16px;
-    font-size: 44px;
-    text-align: center;
-    font-weight: 900;
-    margin: 0;
-    color: var(--primary2);
-}
-
-
-.dotbox1 {
+.dotbox {
     position: relative;
 }
 
-.dotbox1 img {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    height: 130px;
-}
-
-.dotbox2 {
-    position: relative;
-}
-
-.dotbox2 .left {
+.dotbox .left {
     position: absolute;
     left: 15px;
     top: 0px;
     height: 120px;
 }
 
-.dotbox2 .rigth {
+.dotbox .right {
     position: absolute;
     right: 15px;
     top: 0px;
     height: 120px;
-
 }
+
+.sectionHeading {
+    padding: 36px 16px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    color: var(--primary1);
+}
+
+
+/* About Us */
 
 .aboutImage {
     width: 80%;
     height: auto;
     margin: 2% 10% 2% 10%;
 }
-
 
 .about_box {
     padding: 14% 6% 2% 2%;
@@ -155,7 +145,10 @@ a {
     line-height: 32px;
 }
 
-.iconBox {
+
+/* Service */
+
+.serviceBox {
     width: 100%;
     height: 312px;
     position: relative;
@@ -165,7 +158,7 @@ a {
     border-radius: 12px;
 }
 
-.iconImgBox {
+.serviceImgBox {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -179,42 +172,44 @@ a {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-.iconImgBox img {
+.serviceImgBox img {
     width: 60px;
     height: auto;
 }
 
-.icon-content {
+.serviceContent {
     position: absolute;
     left: 0px;
     bottom: 8px;
     padding: 16px;
 }
 
-.icon-content h1 {
+.serviceContent h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
 }
 
-.icon-content p {
+.serviceContent p {
     font-size: 17px;
 }
 
-.icon_btn {
+.serviceBtn {
     color: var(--text1);
     font-weight: 700;
     font-size: 16px;
     padding: 4px 4px;
 }
 
-.icon_btn:hover {
-    background-color: var(--primary2);
+.serviceBtn:hover {
+    background-color: var(--primary1);
     color: var(--text2);
 }
 
+
 /* cloud partner */
-.serviceBox {
+
+.cloudBox {
     text-align: center;
     background-color: var(--text2);
     border-radius: 16px;
@@ -225,18 +220,18 @@ a {
 }
 
 
-.serviceBox:hover {
+.cloudBox:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     border: none;
 }
 
 
-.serviceBox img {
+.cloudBox img {
     padding: 8px;
     height: 160px;
 }
 
-.serviceBox p {
+.cloudBox p {
     font-size: 17px;
     font-weight: 400;
     padding: 6px;
@@ -246,29 +241,38 @@ a {
     text-align: left;
 }
 
+
 /* why us */
+
 .whyImage {
     width: 80%;
     height: auto;
     margin: 0% 10% 0% 10%;
 }
 
-
-.why_box {
+.whyBox {
     padding: 24% 20% 2% 20%;
 }
 
-.why_box p {
+.whyBox p {
     font-size: 18px;
     line-height: 32px;
 }
 
+
 /* Contact  */
+
+.sectionText {
+    font-size: 18px;
+    padding: 0px 180px 0px 180px;
+    text-align: center;
+}
+
 .details i {
     font-size: 22px;
     padding: 6px;
     margin: 0px 16px 0px 0px;
-    color: var(--primary2);
+    color: var(--primary1);
 }
 
 .details {
@@ -287,12 +291,6 @@ a {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-}
-
-.abouttext {
-    font-size: 20px;
-    padding: 0px 180px 0px 184px;
-    text-align: center;
 }
 
 input {
@@ -315,7 +313,7 @@ select {
 .contactInput,
 .selectinput,
 .messageinput {
-    border-color: var(--primary2);
+    border-color: var(--primary1);
     color: var(--secondary1);
 }
 
@@ -327,55 +325,26 @@ select {
     color: var(--secondary1);
 }
 
-.connect {
+.submit {
     margin-top: 24px;
     border: none;
     width: 200px;
     height: 48px;
     font-size: 16px;
     font-weight: 600;
-    background-color: var(--primary2);
+    background-color: var(--primary1);
     color: var(--text2);
-}
-
-.connect:hover {
-    background-color: var(--secondary1);
-}
-
-.submit {
     margin: 18px 0px 6px 12px;
 }
 
-
-/* footer section styling */
-
-footer {
-    background: var(--secondary1);
-    padding: 2px 23px;
-    color: var(--text2);
-    text-align: center;
-    margin-top: 12px;
+.submit:hover {
+    background-color: var(--secondary1);
 }
-
-footer span {
-    color: var(--text2);
-    text-decoration: none;
-}
-
-footer span a {
-    color: var(--text2);
-    text-decoration: none;
-}
-
-.Linkdin:focus {
-    box-shadow: none;
-}
-
-
 
 @media (max-width: 947px) {
+
     .item {
-        height: 500px;
+        height: 400px;
     }
 
     .item img {
@@ -396,16 +365,12 @@ footer span a {
 
     }
 
-    .aboutHeading {
+    .sectionHeading {
         padding: 30px 16px;
         font-size: 36px;
         text-align: center;
         font-weight: 700;
         margin: 0px 0px 0px 0px;
-    }
-
-    .item {
-        height: 400px;
     }
 
     .aboutImage {
@@ -425,24 +390,20 @@ footer span a {
         line-height: 25px;
     }
 
-    .dotbox1 img {
-        display: none;
-    }
-
     .left {
         display: none;
     }
 
-    .rigth {
+    .right {
         display: none;
     }
 
-    .iconBox {
+    .serviceBox {
         height: 260px;
         margin-bottom: 64px;
     }
 
-    .iconImgBox {
+    .serviceImgBox {
         position: absolute;
         width: 80px;
         height: 80px;
@@ -452,46 +413,46 @@ footer span a {
 
     }
 
-    .iconImgBox img {
+    .serviceImgBox img {
         width: 44px;
         height: auto;
     }
 
-    .icon-content {
+    .serviceContent {
         position: absolute;
         left: 0px;
         bottom: -2px;
         padding: 16px;
     }
 
-    .icon-content h1 {
+    .serviceContent h1 {
         font-size: 32px;
         line-height: 32px;
     }
 
-    .icon-content p {
+    .serviceContent p {
         font-size: 14px;
         margin-bottom: 8px;
     }
 
-    .icon_btn {
+    .serviceBtn {
         font-size: 13px;
         padding: 4px 4px;
     }
 
-    .serviceBox {
+    .cloudBox {
         border-radius: 12px;
         margin: 5% 12px;
         border: 2px solid #98bef8;
         height: 230px;
     }
 
-    .serviceBox img {
+    .cloudBox img {
         padding: 8px;
         height: 130px;
     }
 
-    .serviceBox p {
+    .cloudBox p {
         font-size: 14px;
         color: var(--text1);
         width: 100%;
@@ -506,22 +467,20 @@ footer span a {
     }
 
 
-    .why_box {
+    .whyBox {
         padding: 2% 0%;
         margin: 0px 16px;
     }
 
-    .why_box p {
+    .whyBox p {
         font-size: 15px;
         line-height: 25px;
     }
 
-    .abouttext {
+    .sectionText {
         font-size: 18px;
         padding: 0px 16px 0px 16px;
     }
-
-
 
     .details {
         width: 100%;
