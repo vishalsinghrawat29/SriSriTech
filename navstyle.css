@@ -88,7 +88,7 @@
 /* footer section styling */
 
 footer {
-    background: var(--secondary1);
+    background: var(--text1);
     padding: 0px 23px;
     color: var(--text2);
     text-align: center;
