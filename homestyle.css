@@ -153,7 +153,8 @@ a {
     height: 312px;
     position: relative;
     background-color: var(--text2);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 7%);
+
     margin: 36px;
     border-radius: 12px;
 }
@@ -169,7 +170,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 7%);
 }
 
 .serviceImgBox img {
@@ -216,7 +217,7 @@ a {
     margin: 2px 40px 10% 40px;
     width: auto;
     height: 280px;
-    border: 2px solid #9fc0f1;
+    border: 2px solid #d5dde9;
 }
 
 
@@ -313,8 +314,8 @@ select {
 .contactInput,
 .selectinput,
 .messageinput {
-    border-color: var(--primary1);
-    color: var(--secondary1);
+    border-color: #d1d5db;
+    color: var(--primary1);
 }
 
 .contactInput:focus,
@@ -339,6 +340,22 @@ select {
 
 .submit:hover {
     background-color: var(--secondary1);
+}
+
+.bookCta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 28px;
+    padding: 30px 0px;
+}
+.bookCta h3{
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+    padding:  0px 56px ;
+    color:var(--text1);
 }
 
 @media (max-width: 947px) {
@@ -517,5 +534,16 @@ select {
 
     .submit {
         margin: 20px 0px 6px 30px;
+    }
+
+    .bookCta h3{
+        font-size: 24px;
+        line-height: 30px;
+        padding: 4px;
+    
+    }
+    .bookCta{
+        margin-top: 0px;
+        padding: 16px;
     }
 }
