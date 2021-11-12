@@ -121,6 +121,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 .book:hover {
@@ -132,6 +133,7 @@ a {
 /* Services  */
 .serviceBox {
     padding: 24px 44px;
+    margin-bottom: 22px;
 }
 
 .serviceBox h1 {
@@ -232,6 +234,7 @@ a {
     line-height: 26px;
     padding: 0px 16px 0px 16px;
     text-align: center;
+    margin-bottom: -48px;
 }
 /* header */
 .left_box {
@@ -247,8 +250,8 @@ a {
 }
 
 .left_box h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
 }
 
 .left_box p {
@@ -268,21 +271,23 @@ a {
 }
 
 /* header */
-.left_box {
+.serviceBox {
     padding: 0px 16px;
-    margin-top: 10px;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 
 .serviceImg {
     width: 90%;
     height: auto;
-    margin: 20% 5% 2% 5%;
+    margin: 6% 5% 2% 5%;
 }
 
 .serviceBox h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
+
 }
 
 .serviceBox p {
