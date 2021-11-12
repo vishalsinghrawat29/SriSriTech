@@ -213,6 +213,40 @@ a {
     font-weight: 400;
     margin-bottom: 36px;
 }
+.bookCta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 28px;
+    padding: 30px 0px;
+}
+.bookCta h3{
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+    padding:  0px 56px ;
+    color:var(--text1);
+}
+
+.book {
+    border: none;
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary1);
+    color: var(--text2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(50% - 100px);
+}
+
+.book:hover {
+    background-color:var(--secondary1);
+    color: var(--text2);
+}
 
 
 
@@ -299,6 +333,15 @@ a {
 .about_margin {
     margin-left: 0px;
 }
+.bookCta h3{
+    font-size: 28px;
+    line-height: 36px;
+    padding: 4px;
 
+}
+.bookCta{
+    margin-top: 0px;
+    padding: 16px;
+}
 
 }
