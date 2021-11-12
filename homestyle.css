@@ -460,7 +460,7 @@ select {
     .cloudBox {
         border-radius: 12px;
         margin: 5% 12px;
-        border: 2px solid;
+        border: 2px solid #d5dde9;
         height: 230px;
     }
 
