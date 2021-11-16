@@ -79,11 +79,13 @@ a {
 .headertext div {
     text-align: center;
 }
-.headertext a{
+
+.headertext a {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
+
 .book {
     margin: 0 auto;
     border: none;
@@ -102,7 +104,7 @@ a {
 
 .dotbox {
     position: relative;
-    overflow :hidden;
+    overflow: hidden;
 
 }
 
@@ -137,16 +139,17 @@ a {
     transform: rotate(48deg);
     opacity: 0.4;
 }
- .dotbox .Tcenter1{
+
+.dotbox .Tcenter1 {
     position: absolute;
     left: 30%;
     top: -6px;
     height: 80px;
     transform: rotate(-28deg);
     opacity: 0.3;
- }
+}
 
- .dotbox .Tcenter2{
+.dotbox .Tcenter2 {
     position: absolute;
     right: 30%;
     bottom: -16px;
@@ -225,7 +228,7 @@ a {
 
 .serviceContent h1 {
     font-size: 48px;
-    line-height:48px;
+    line-height: 48px;
     font-weight: 700;
 }
 
@@ -256,7 +259,7 @@ a {
     margin: 5% 10% 5% 10%;
     width: auto;
     height: 280px;
-    padding: 5px 8px;    
+    padding: 5px 8px;
     border: 2px solid #d5dde9;
 
 }
@@ -314,7 +317,8 @@ a {
     height: auto;
     margin: 3% 3% 3% 3%;
 }
-.feature{
+
+.feature {
     display: flex;
     align-items: center;
     text-align: left;
@@ -415,7 +419,7 @@ select {
     background-color: var(--secondary1);
 }
 
-.bookCta{
+.bookCta {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -423,12 +427,13 @@ select {
     margin-top: 28px;
     padding: 30px 0px;
 }
-.bookCta h3{
+
+.bookCta h3 {
     font-size: 48px;
     line-height: 64px;
     font-weight: 700;
-    padding:  0px 56px ;
-    color:var(--text1);
+    padding: 0px 56px;
+    color: var(--text1);
     margin-bottom: 1%;
 }
 
@@ -440,11 +445,11 @@ select {
         width: 180px;
         height: 40px;
         font-size: 15px;
-        font-weight: 600;       
+        font-weight: 600;
         margin-top: 6px;
     }
-    
-    
+
+
 
     .item {
         height: 400px;
@@ -500,16 +505,20 @@ select {
     .right {
         display: none;
     }
-    .Tcenter1{
+
+    .Tcenter1 {
         display: none;
     }
-    .Tcenter2{
+
+    .Tcenter2 {
         display: none;
     }
-    .Tleft{
+
+    .Tleft {
         display: none;
     }
-    .Tright{
+
+    .Tright {
         display: none;
     }
 
@@ -536,7 +545,7 @@ select {
     .serviceContent {
         position: absolute;
 
-        top:32px;
+        top: 32px;
         left: 0px;
         bottom: -2px;
         padding: 16px;
@@ -579,43 +588,43 @@ select {
     }
 
     /* header */
-.whyBox {
-    padding: 0px 16px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-}
+    .whyBox {
+        padding: 0px 16px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
 
 
-.whyImage {
-    width: 90%;
-    height: auto;
-    margin: 6% 5% 2% 5%;
-}
+    .whyImage {
+        width: 90%;
+        height: auto;
+        margin: 6% 5% 2% 5%;
+    }
 
-.whyBox h1 {
-    font-size: 28px;
-    line-height: 36px;
+    .whyBox h1 {
+        font-size: 28px;
+        line-height: 36px;
 
-}
+    }
 
-.whyBox p {
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: 10px;
-}
+    .whyBox p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
 
 
-.feature img {
-    height: 15px;
-    margin: -24px 8px 0px 0px;
-}
+    .feature img {
+        height: 15px;
+        margin: -24px 8px 0px 0px;
+    }
 
-.feature p {
-    text-align: left;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 600;
-}
+    .feature p {
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+    }
 
     .sectionText {
         font-size: 15px;
@@ -660,13 +669,14 @@ select {
         margin: 20px 0px 6px 30px;
     }
 
-    .bookCta h3{
+    .bookCta h3 {
         font-size: 24px;
         line-height: 30px;
         padding: 4px;
-    
+
     }
-    .bookCta{
+
+    .bookCta {
         margin-top: 0px;
         padding: 16px;
     }

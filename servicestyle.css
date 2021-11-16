@@ -140,7 +140,7 @@ a {
 }
 
 /* Services feature*/
-.feature{
+.feature {
     display: flex;
     align-items: center;
     text-align: left;
@@ -160,7 +160,7 @@ a {
 
 .dotbox {
     position: relative;
-    overflow :hidden;
+    overflow: hidden;
 
 }
 
@@ -195,16 +195,17 @@ a {
     transform: rotate(48deg);
     opacity: 0.4;
 }
- .dotbox .Tcenter1{
+
+.dotbox .Tcenter1 {
     position: absolute;
     left: 30%;
     top: -6px;
     height: 80px;
     transform: rotate(-28deg);
     opacity: 0.3;
- }
+}
 
- .dotbox .Tcenter2{
+.dotbox .Tcenter2 {
     position: absolute;
     right: 30%;
     bottom: -16px;
@@ -215,7 +216,7 @@ a {
 
 /* CTA  */
 
-.bookCta{
+.bookCta {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,19 +224,21 @@ a {
     margin-top: 28px;
     padding: 30px 0px;
 }
-.bookCta h3{
+
+.bookCta h3 {
     font-size: 42px;
     line-height: 56px;
     font-weight: 700;
-    padding:  0px 56px ;
-    color:var(--text1);
+    padding: 0px 56px;
+    color: var(--text1);
 }
 
-.headertext a{
+.headertext a {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
+
 .book1 {
     margin: 0 auto;
     border: none;
@@ -281,11 +284,13 @@ a {
     margin: 36px;
     color: var(--secondary1);
 }
-.aboutHead{
+
+.aboutHead {
     text-align: center;
     padding: 0% 5% 1% 5%;
 
 }
+
 .aboutHead h1 span {
     font-size: 54px;
     line-height: 54*1.5px;
@@ -300,7 +305,7 @@ a {
     background-size: 100% 0.2em;
     background-position: 0 88%;
 
-  }
+}
 
 .bottomlogo1 img {
     width: 32%;
@@ -314,175 +319,186 @@ a {
         width: 180px;
         height: 40px;
         font-size: 15px;
-        font-weight: 600;        
+        font-weight: 600;
         margin: 12px 0px;
 
     }
+
     .book1 {
         border: none;
         width: 180px;
         height: 40px;
         font-size: 15px;
-        font-weight: 600;       
+        font-weight: 600;
         margin-top: 6px;
     }
 
-.bgtext{
-    display: none;
-}
+    .bgtext {
+        display: none;
+    }
 
-.left {
-    display: none;
-}
+    .left {
+        display: none;
+    }
 
-.right {
-    display: none;
-}
-.Tcenter1{
-    display: none;
-}
-.Tcenter2{
-    display: none;
-}
-.Tleft{
-    display: none;
-}
-.Tright{
-    display: none;
-}
+    .right {
+        display: none;
+    }
 
-.aboutHeading {
-    padding: 20px 16px;
-    font-size: 36px;
-    margin: 44px 0px 0px 0px;
-}
+    .Tcenter1 {
+        display: none;
+    }
 
-.servicetext {
-    font-size: 17px;
-    line-height: 26px;
-    padding: 0px 16px 0px 16px;
-    text-align: center;
-    margin-bottom: -48px;
-}
-/* header */
-.left_box {
-    padding: 0px 16px;
-    margin-top: 10px;
-}
+    .Tcenter2 {
+        display: none;
+    }
 
+    .Tleft {
+        display: none;
+    }
 
-.headerImage {
-    width: 90%;
-    height: auto;
-    margin: 20% 5% 2% 5%;
-}
+    .Tright {
+        display: none;
+    }
 
-.left_box h1 {
-    font-size: 28px;
-    line-height: 36px;
-}
+    .aboutHeading {
+        padding: 20px 16px;
+        font-size: 36px;
+        margin: 44px 0px 0px 0px;
+    }
 
-.left_box p {
-    font-size: 16px;
-    margin-top: 10px;
-}
+    .servicetext {
+        font-size: 17px;
+        line-height: 26px;
+        padding: 0px 16px 0px 16px;
+        text-align: center;
+        margin-bottom: -48px;
+    }
 
-.bookCta h3{
-    font-size: 24px;
-    line-height: 30px;
-    padding: 4px;
-
-}
-.bookCta{
-    margin-top: 0px;
-    padding: 16px;
-}
-
-/* header */
-.serviceBox {
-    padding: 0px 16px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-}
+    /* header */
+    .left_box {
+        padding: 0px 16px;
+        margin-top: 10px;
+    }
 
 
-.serviceImg {
-    width: 90%;
-    height: auto;
-    margin: 6% 5% 2% 5%;
-}
+    .headerImage {
+        width: 90%;
+        height: auto;
+        margin: 20% 5% 2% 5%;
+    }
 
-.serviceBox h1 {
-    font-size: 28px;
-    line-height: 36px;
+    .left_box h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
 
-}
+    .left_box p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
-.serviceBox p {
-    font-size: 16px;
-    margin-top: 10px;
-}
+    .bookCta h3 {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 4px;
+
+    }
+
+    .bookCta {
+        margin-top: 0px;
+        padding: 16px;
+    }
+
+    /* header */
+    .serviceBox {
+        padding: 0px 16px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
 
 
-.feature img {
-    height: 20px;
-    margin: 3px 8px 0px 0px;
-}
+    .serviceImg {
+        width: 90%;
+        height: auto;
+        margin: 6% 5% 2% 5%;
+    }
 
-.feature p {
-    text-align: left;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 400;
-}
+    .serviceBox h1 {
+        font-size: 28px;
+        line-height: 36px;
 
-.company_logo {
-    height: 64px;
-    margin-top: 14px;
-}
+    }
 
-.company_logo img {
-    width: 100%;
-    height: auto;
-}
+    .serviceBox p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
-.workText {
-    padding: 4px 6px;
-    font-weight: 700;
-    font-size: 26px;
-    margin: 16px;
-    text-align: center;
-}
-.bottomlogo1 img {
-    width: 60%;
-}
-.bottomlogo img {
-    width: 60%;
-}
 
-.aboutHead{
-    padding: 20% 5% 4% 5%;
+    .feature img {
+        height: 20px;
+        margin: 3px 8px 0px 0px;
+    }
 
-}
-.aboutHead h1 span {
-    font-size: 32px;
-    line-height: 32*1.2px;
-}
+    .feature p {
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+    }
 
-.book1 {
-    border: none;
-    width: 200px;
-    height: 42px;
-}
+    .company_logo {
+        height: 64px;
+        margin-top: 14px;
+    }
 
-.bookCta h3{
-    font-size: 24px;
-    line-height: 30px;
-    padding: 4px;
+    .company_logo img {
+        width: 100%;
+        height: auto;
+    }
 
-}
-.bookCta{
-    margin-top: 0px;
-    padding: 16px;
-}
+    .workText {
+        padding: 4px 6px;
+        font-weight: 700;
+        font-size: 26px;
+        margin: 16px;
+        text-align: center;
+    }
+
+    .bottomlogo1 img {
+        width: 60%;
+    }
+
+    .bottomlogo img {
+        width: 60%;
+    }
+
+    .aboutHead {
+        padding: 20% 5% 4% 5%;
+
+    }
+
+    .aboutHead h1 span {
+        font-size: 32px;
+        line-height: 32*1.2px;
+    }
+
+    .book1 {
+        border: none;
+        width: 200px;
+        height: 42px;
+    }
+
+    .bookCta h3 {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 4px;
+
+    }
+
+    .bookCta {
+        margin-top: 0px;
+        padding: 16px;
+    }
 }

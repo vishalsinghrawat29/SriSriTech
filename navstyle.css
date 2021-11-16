@@ -24,6 +24,7 @@ li {
 a {
     text-decoration: none;
 }
+
 /*navbar1 style*/
 
 .navbar1 {
@@ -170,7 +171,7 @@ footer span a {
 
     .navbar1 .menu.active {
         padding: 0px;
-        padding-top:38%;
+        padding-top: 38%;
     }
 
     .navbar1.sticky .menu li a {
