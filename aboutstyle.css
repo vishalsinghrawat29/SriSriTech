@@ -295,8 +295,13 @@ a {
     padding:  0px 56px ;
     color:var(--text1);
 }
+.headertext a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 .book {
-    margin-top: 30px;
+    margin: 0 auto;
     border: none;
     width: 230px;
     height: 48px;
@@ -304,10 +309,6 @@ a {
     font-weight: 600;
     background-color: var(--primary2);
     color: var(--text1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: calc(50% - 100px);
 }
 
 .book:hover {
@@ -362,15 +363,16 @@ margin: 1% 6%;
 
 @media (max-width: 947px) {
 
+
     .book {
-        margin-top: 30px;
         border: none;
         width: 180px;
         height: 40px;
         font-size: 15px;
-        font-weight: 600;        margin-top: 6px;
-
+        font-weight: 600;       
+        margin-top: 6px;
     }
+    
 
 .bgtext{
     display: none;
@@ -414,7 +416,7 @@ margin: 1% 6%;
 
     .about_box p {
         font-size: 16px;
-        line-height: 25px;
+        line-height: 28px;
     }
     .about_margin h1 br:first-child {
         display: none;
@@ -477,15 +479,15 @@ margin: 1% 6%;
 }
 
 .whyProfile img{
-    width: 90px;
-    padding: 3% ; 
+    width: 80px;
+    padding: 4% ; 
     margin: 4% 0px 2% 0px ;
 }
 
 .whyProfile h1{
     text-align: center;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
     font-weight: 600;
     margin: -2% 0% 8% 0%;
 }
