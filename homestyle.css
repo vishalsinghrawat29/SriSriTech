@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
 :root {
     --primary1: #1877F2;
     --primary2: #F8E831;
     --secondary1: #0c62d3;
-    --secondary2: #F7A200;
+    --secondary2: #e9d70e;
     --text1: #0A1931;
     --text2: #ffffff;
 
@@ -19,7 +19,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: var(--text1)
 }
 
@@ -69,8 +69,8 @@ a {
 
 .headertext h1 {
     color: var(--text2);
-    font-size: 74px;
-    font-weight: 900;
+    font-size: 64px;
+    font-weight: 800;
     padding: 8px 16px;
     line-height: 87px;
 
@@ -83,12 +83,13 @@ a {
 .book {
     margin-top: 30px;
     border: none;
-    width: 200px;
+    width: 230px;
     height: 48px;
     font-size: 16px;
     font-weight: 600;
-    background-color: var(--primary1);
-    color: var(--text2);
+  
+    background-color: var(--primary2);
+    color: var(--text1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,12 +97,14 @@ a {
 }
 
 .book:hover {
-    background-color: var(--secondary1);
-    color: var(--text2);
+    background-color: var(--secondary2);
+    color: var(--text1);
 }
 
 .dotbox {
     position: relative;
+    overflow :hidden;
+
 }
 
 .dotbox .left {
@@ -118,6 +121,41 @@ a {
     height: 120px;
 }
 
+.dotbox .Tleft {
+    position: absolute;
+    left: -36px;
+    top: 4px;
+    height: 200px;
+    transform: rotate(48deg);
+    opacity: 0.4;
+}
+
+.dotbox .Tright {
+    position: absolute;
+    right: -40px;
+    top: 4px;
+    height: 200px;
+    transform: rotate(48deg);
+    opacity: 0.4;
+}
+ .dotbox .Tcenter1{
+    position: absolute;
+    left: 30%;
+    top: -6px;
+    height: 80px;
+    transform: rotate(-28deg);
+    opacity: 0.3;
+ }
+
+ .dotbox .Tcenter2{
+    position: absolute;
+    right: 30%;
+    bottom: -16px;
+    height: 90px;
+    transform: rotate(20deg);
+    opacity: 0.3;
+}
+
 .sectionHeading {
     padding: 36px 16px;
     font-size: 44px;
@@ -131,9 +169,9 @@ a {
 /* About Us */
 
 .aboutImage {
-    width: 80%;
+    width: 70%;
     height: auto;
-    margin: 2% 10% 2% 10%;
+    margin: 2% 15% 2% 15%;
 }
 
 .about_box {
@@ -141,8 +179,9 @@ a {
 }
 
 .about_box p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 32px;
+    font-weight: 500;
 }
 
 
@@ -150,11 +189,10 @@ a {
 
 .serviceBox {
     width: 100%;
-    height: 312px;
+    height: 340px;
     position: relative;
     background-color: var(--text2);
-    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 7%);
-
+    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 10%);
     margin: 36px;
     border-radius: 12px;
 }
@@ -170,7 +208,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 7%);
+    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 10%);
 }
 
 .serviceImgBox img {
@@ -182,29 +220,31 @@ a {
     position: absolute;
     left: 0px;
     bottom: 8px;
-    padding: 16px;
+    padding: 0px 16px;
+    width: 96%;
 }
 
 .serviceContent h1 {
-    font-weight: 700;
     font-size: 48px;
-    line-height: 48px;
+    line-height:48px;
+    font-weight: 700;
 }
 
 .serviceContent p {
     font-size: 17px;
+    line-height: 26px;
+    font-weight: 300;
 }
 
 .serviceBtn {
-    color: var(--text1);
-    font-weight: 700;
+    color: var(--primary1);
+    font-weight: 600;
     font-size: 16px;
-    padding: 4px 4px;
+    padding: 4px 4px 0px 0px;
 }
 
 .serviceBtn:hover {
-    background-color: var(--primary1);
-    color: var(--text2);
+    color: var(--secondary1);
 }
 
 
@@ -214,16 +254,18 @@ a {
     text-align: center;
     background-color: var(--text2);
     border-radius: 16px;
-    margin: 2px 40px 10% 40px;
+    margin: 5% 10% 5% 10%;
     width: auto;
     height: 280px;
-    border: 2px solid #d5dde9;
+    padding: 5px 8px;    border: 2px solid #d5dde9;
+
 }
 
 
 .cloudBox:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     border: none;
+    padding: 0px 10px;
 }
 
 
@@ -233,31 +275,61 @@ a {
 }
 
 .cloudBox p {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 26px;
     font-weight: 400;
     padding: 6px;
     color: var(--text1);
     width: 100%;
-    margin: 1% 2%;
+    margin: -1% 2%;
     text-align: left;
 }
 
 
 /* why us */
 
-.whyImage {
-    width: 80%;
-    height: auto;
-    margin: 0% 10% 0% 10%;
+
+/* Why feature*/
+/* Services  */
+.whyBox {
+    padding: 24px 44px;
+    margin-bottom: 22px;
 }
 
-.whyBox {
-    padding: 24% 20% 2% 20%;
+.whyBox h1 {
+    font-size: 54px;
+    line-height: 54*1.2px;
+    font-weight: 700;
 }
 
 .whyBox p {
-    font-size: 18px;
-    line-height: 32px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.whyImage {
+    width: 94%;
+    height: auto;
+    margin: 3% 3% 3% 3%;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.feature img {
+    height: 16px;
+    margin: 3px 8px 0px 0px;
+}
+
+.feature p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
 }
 
 
@@ -322,8 +394,8 @@ select {
 .selectinput:focus,
 .messageinput:focus {
     box-shadow: none;
-    border-color: var(--secondary1);
-    color: var(--secondary1);
+    border-color: var(--primary1);
+    color: var(--text1);
 }
 
 .submit {
@@ -351,14 +423,26 @@ select {
     padding: 30px 0px;
 }
 .bookCta h3{
-    font-size: 56px;
-    line-height: 70px;
-    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
     padding:  0px 56px ;
     color:var(--text1);
 }
 
 @media (max-width: 947px) {
+
+    .book {
+        margin-top: 30px;
+        border: none;
+        width: 180px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;        margin-top: 6px;
+
+    }
+    
+    
 
     .item {
         height: 400px;
@@ -412,6 +496,18 @@ select {
     }
 
     .right {
+        display: none;
+    }
+    .Tcenter1{
+        display: none;
+    }
+    .Tcenter2{
+        display: none;
+    }
+    .Tleft{
+        display: none;
+    }
+    .Tright{
         display: none;
     }
 
@@ -477,22 +573,43 @@ select {
         padding: 14px;
     }
 
-    .whyImage {
-        width: 96%;
-        height: auto;
-        margin: 0% 2%;
-    }
+    /* header */
+.whyBox {
+    padding: 0px 16px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
 
 
-    .whyBox {
-        padding: 2% 0%;
-        margin: 0px 16px;
-    }
+.whyImage {
+    width: 90%;
+    height: auto;
+    margin: 6% 5% 2% 5%;
+}
 
-    .whyBox p {
-        font-size: 15px;
-        line-height: 25px;
-    }
+.whyBox h1 {
+    font-size: 28px;
+    line-height: 36px;
+
+}
+
+.whyBox p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.feature img {
+    height: 15px;
+    margin: -8px 8px 0px 0px;
+}
+
+.feature p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
 
     .sectionText {
         font-size: 18px;

@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
+::selection {
+    color: var(--text2);
+    background: var(--primary1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--text1)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 /*navbar1 style*/
 
 .navbar1 {
@@ -23,8 +49,9 @@
 
 .navbar1 .logo a {
     color: var(--primary1);
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    font-weight: 700;
 }
 
 .navbar1 .menu li {
@@ -32,13 +59,15 @@
     display: inline-block;
     position: relative;
     margin: 0px 14px;
+    font-weight: 500;
+
 }
 
 .navbar1 .menu li a {
     display: block;
     color: var(--text1);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     transition: color 0.3s ease;
     padding-top: 2px;
     text-align: center;
@@ -74,7 +103,7 @@
 }
 
 .navbar1.sticky .menu li a:hover {
-    color: var(--primary1);
+    color: var(--secondary1);
 }
 
 /* menu btn styling */
@@ -93,6 +122,7 @@ footer {
     color: var(--text2);
     text-align: center;
     margin-top: 0px;
+    font-size: 16px;
 }
 
 footer span {
@@ -122,6 +152,7 @@ footer span a {
 
     .navbar1 .logo a {
         font-size: 22px;
+        line-height: 36px;
     }
 
     .navbar1 .menu li a {
@@ -139,7 +170,7 @@ footer span a {
 
     .navbar1 .menu.active {
         padding: 0px;
-        padding-top:43%;
+        padding-top:30%;
     }
 
     .navbar1.sticky .menu li a {
