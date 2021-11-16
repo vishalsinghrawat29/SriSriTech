@@ -79,21 +79,20 @@ a {
 .headertext div {
     text-align: center;
 }
-
+.headertext a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 .book {
-    margin-top: 30px;
+    margin: 0 auto;
     border: none;
     width: 230px;
     height: 48px;
     font-size: 16px;
     font-weight: 600;
-  
     background-color: var(--primary2);
     color: var(--text1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: calc(50% - 100px);
 }
 
 .book:hover {
@@ -428,18 +427,19 @@ select {
     font-weight: 700;
     padding:  0px 56px ;
     color:var(--text1);
+    margin-bottom: 1%;
 }
+
 
 @media (max-width: 947px) {
 
     .book {
-        margin-top: 30px;
         border: none;
         width: 180px;
         height: 40px;
         font-size: 15px;
-        font-weight: 600;        margin-top: 6px;
-
+        font-weight: 600;       
+        margin-top: 6px;
     }
     
     
@@ -488,7 +488,7 @@ select {
 
     .about_box p {
         font-size: 16px;
-        line-height: 25px;
+        line-height: 28px;
     }
 
     .left {
@@ -512,7 +512,7 @@ select {
     }
 
     .serviceBox {
-        height: 260px;
+        height: 308px;
         margin-bottom: 64px;
     }
 
@@ -533,6 +533,8 @@ select {
 
     .serviceContent {
         position: absolute;
+
+        top:32px;
         left: 0px;
         bottom: -2px;
         padding: 16px;
@@ -545,19 +547,20 @@ select {
 
     .serviceContent p {
         font-size: 14px;
+        line-height: 24px;
         margin-bottom: 8px;
     }
 
     .serviceBtn {
         font-size: 13px;
-        padding: 4px 4px;
+        padding: 4px 4px 4px 0px;
     }
 
     .cloudBox {
         border-radius: 12px;
         margin: 5% 12px;
         border: 2px solid #d5dde9;
-        height: 230px;
+        height: 260px;
     }
 
     .cloudBox img {
@@ -595,13 +598,14 @@ select {
 
 .whyBox p {
     font-size: 16px;
+    line-height: 28px;
     margin-top: 10px;
 }
 
 
 .feature img {
     height: 15px;
-    margin: -8px 8px 0px 0px;
+    margin: -24px 8px 0px 0px;
 }
 
 .feature p {
