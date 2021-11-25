@@ -107,6 +107,10 @@ a {
     color: var(--secondary1);
 }
 
+.navbar1 .logo img{
+    width: 160px;
+}
+
 /* menu btn styling */
 .menu-btn {
     color: var(--text1);
@@ -149,6 +153,10 @@ footer span a {
 
     .navbar1.sticky {
         padding: 8px 16px;
+    }
+    
+    .navbar1 .logo img{
+        width: 90px;
     }
 
     .navbar1 .logo a {
