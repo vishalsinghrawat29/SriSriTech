@@ -41,7 +41,7 @@
     <!-- Navbar -->
     <nav class="navbar1 sticky">
         <div class="max-width">
-            <div class="logo"><a href="#">SriSriTech</a></div>
+            <div class="logo"><a href="#"><img src="Assets/logo.png" style="width:160px;"></a></div>
             <ul class="menu">
                 <li><a href="index.html" class="menu-btn">Home</a></li>
                 <li><a href="about.html" class="menu-btn">About</a></li>
@@ -117,20 +117,22 @@
                             <div class="col-md-12 mt-3">
                                 <input type="text" name="companyName" placeholder="Company Name" class="form-control contactInput">
                             </div>
-                            <div class="col-md-12 mt-3">
-                                <select class="form-select selectinput" name="subject">
+                            <div class="col-md-6 mt-3">
+                                <select class="form-select selectinput" name="subject" id="mainService" onchange="changeValue()">
                                     <option value="" hidden>Services you are interested in...</option>
-                                    <option value="Application
-                                    Services">Application
+                                    <option value="Application Services">Application
                                         Services</option>
-                                    <option value="IT
-                                    Consultancy">IT
+                                    <option value="IT Consultancy">IT
                                     Consultancy</option>
-                                    <option value="Data
-                                    Analytics">Data
+                                    <option value="Data Analytics">Data
                                     Analytics</option>
                                     <option value="Others">Others</option>
 
+                                </select>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <select class="form-select selectinput" name="subject" id="subService">
+                                    <option value="" hidden>Choose a sub-service</option>
                                 </select>
                             </div>
                             <div class="col-md-12 mt-3">
@@ -167,6 +169,7 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <script src="navscript.js"></script>
+    <script src="contact.js"></script>
     <!-- <script src="typing.js"></script> -->
 
 </body>

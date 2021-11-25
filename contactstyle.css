@@ -166,7 +166,7 @@ select {
 .selectinput,
 .messageinput {
     border-color: #d1d5db;
-    color: #898b8d;
+    color: #707172;
 }
 
 .contactInput:focus,

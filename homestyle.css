@@ -472,6 +472,9 @@ select {
         line-height: 36px;
 
     }
+    .headertext h1 br{
+        display: none;
+    }
 
     .sectionHeading {
         padding: 30px 16px;
