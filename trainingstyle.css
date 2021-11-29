@@ -66,7 +66,8 @@ a {
     margin: 4% 0px 0px 0px;
     color: var(--primary1);
 }
-.sectionText{ 
+
+.sectionText {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -130,7 +131,6 @@ a {
     font-weight: 600;
     background-color: var(--primary1);
     color: var(--text2)
-
 }
 
 .book:hover {
@@ -156,89 +156,97 @@ a {
     margin: 12% 0% 6% 0%;
 }
 
-.ourNumber p{
+.ourNumber p {
     font-size: 17px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.unique{
+.unique {
     text-align: center;
     padding: 0px 28px;
     background-color: #F0F2F5;
-    box-shadow: 7px 7px 30px 0 rgb(240,242,245 / 15%);
+    box-shadow: 7px 7px 30px 0 rgb(240, 242, 245 / 15%);
 
     width: 500px;
     margin-bottom: 48px;
 }
 
-.unique img{
+.unique img {
     width: 80px;
     margin: 16px 0px 4px 0px;
 }
 
-.unique h2{
+.unique h2 {
     font-size: 34px;
     font-weight: 700;
     margin: 4% 0%;
 }
 
-.unique p{
+.unique p {
     font-size: 17px;
     line-height: 26px;
     font-weight: 500;
-    text-align:left;
+    text-align: left;
 }
-.whyUsBox{
+
+.whyUsBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.whyBox{
-padding: 16px;
-text-align: center;
-width: 320px;
-background-color: #F0F2F5;
-margin: 34px 18px;
+
+.whyBox {
+    padding: 16px;
+    text-align: center;
+    width: 320px;
+    background-color: #F0F2F5;
+    margin: 34px 18px;
 }
 
-.whyBox img{
+.whyBox img {
     width: 80px;
     margin: 16px 0px 4px 0px;
 }
-.whyBox h1{
+
+.whyBox h1 {
     font-size: 24px;
     font-weight: 700;
     margin: 4% 0% 1% 0%;
 }
-.whyBox p{
+
+.whyBox p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
+
 .whyBox:hover {
     background-color: var(--primary1);
 }
-.whyBox:hover h1, .whyBox:hover p {
- color: var(--text2);
+
+.whyBox:hover h1,
+.whyBox:hover p {
+    color: var(--text2);
 }
-.whyBox:hover img{
+
+.whyBox:hover img {
     filter: brightness(0) invert(1);
 
 }
 
 
-.topicBox{
+.topicBox {
     width: 320px;
-    position:relative;
+    position: relative;
     border-radius: 12px;
     padding: 8px;
     height: 460px;
     margin: 36px;
-    box-shadow: 7px 7px 30px 0 rgb(0,0,0, 10%);
+    box-shadow: 7px 7px 30px 0 rgb(0, 0, 0, 10%);
 }
 
-.cardTop{
+.cardTop {
     position: absolute;
     top: 0;
     left: 0;
@@ -251,45 +259,51 @@ margin: 34px 18px;
     align-items: center;
 }
 
-.cardBody{
+.cardBody {
     position: absolute;
-    top:160px;
-    left:0;
+    top: 160px;
+    left: 0;
     border-radius: 0 0 12px 12px;
     height: 300px;
     width: 100%;
 }
 
-.cardTop img{
+.cardTop img {
     width: 110px;
     padding: 10px;
 }
-.cardTop h1{
+
+.cardTop h1 {
     font-size: 36px;
     font-weight: 700;
 }
+
 .cardBody div {
     width: calc(100% - 18px);
     margin-left: 9px;
     height: 49px;
     line-height: 49px;
-    padding: 12px 12px; 
-    box-shadow: 0 1px #d5d5d5;   
+    padding: 12px 12px;
+    box-shadow: 0 1px #d5d5d5;
 }
-.cardBody div:last-child{
+
+.cardBody div:last-child {
     box-shadow: none;
 }
-.cardBody div:hover{
+
+.cardBody div:hover {
     cursor: pointer;
     background-color: #f8f8f8;
 }
-.cardBody div p{
+
+.cardBody div p {
     float: left;
     font-size: 16px;
     line-height: 25px;
 
 }
-.cardBody span{
+
+.cardBody span {
     float: right;
     font-size: 20px;
     line-height: 25px;
@@ -298,16 +312,16 @@ margin: 34px 18px;
 .rotate1 {
     transform: rotateY(180deg);
     transition: all 0.5s;
-  }
-  
-  .rotate2 {
+}
+
+.rotate2 {
     transform: rotateY(-180deg);
     transition: all 0.5s;
-  }
+}
 
 
 
-  .company_logo {
+.company_logo {
     height: 17px;
     padding: 15px;
     text-align: center;
@@ -317,12 +331,12 @@ margin: 34px 18px;
 }
 
 
-.programmingLanguage{
+.programmingLanguage {
     height: 56px;
     width: auto;
 }
 
-.PathHeading{
+.PathHeading {
     padding: 8px 16px;
     font-weight: 800;
     display: flex;
@@ -332,70 +346,78 @@ margin: 34px 18px;
     color: var(--text1);
 }
 
-.pathBox{
+.pathBox {
     padding: 16px 16px 0px 16px;
     text-align: center;
     width: 336px;
     height: 300px;
-    background-color:var(--text2);
-    box-shadow: 7px 7px 30px 0px rgb(0,0,0,7%);
+    background-color: var(--text2);
+    box-shadow: 7px 7px 30px 0px rgb(0, 0, 0, 7%);
     margin: 18px 18px;
- }
- .pathBox img{
+}
+
+.pathBox img {
     width: 44px;
     height: 44px;
     margin: 0px 6px 0px 0px;
 }
 
-.pathTop{
+.pathTop {
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: left;
 }
-   
-.pathBody{
+
+.pathBody {
     margin: 24px 0px 8px 0px;
 }
-.pathContent{
+
+.pathContent {
     display: flex;
     justify-content: left;
     align-items: start;
     text-align: left;
     margin: 10px 0px;
 }
-.pathTop h1{
+
+.pathTop h1 {
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
     margin: 0px 6px 0px 6px;
 }
-.pathTop img{
+
+.pathTop img {
     width: 44px;
     height: 44px;
     margin: 0px 6px 0px 0px;
 }
-.pathContent p{
+
+.pathContent p {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     margin: 0px 6px 0px 18px;
 }
-.pathContent i{
+
+.pathContent i {
     font-size: 16px;
     padding-left: 6px;
     line-height: 20px;
     margin: 0px 6px 0px 6px;
     color: var(--primary1);
-    
+
 }
+
+
 
 @media (max-width: 947px) {
 
     /* header */
     .left_box {
         padding: 0px 16px;
-        margin-top: 10px;
+        margin: 10px 0px 14px 0px;
     }
 
 
@@ -412,7 +434,7 @@ margin: 34px 18px;
 
     .left_box p {
         font-size: 16px;
-        margin-top: 10px;
+        margin: 12px 0px 28px 0px;
         width: 100%;
     }
 
@@ -431,7 +453,7 @@ margin: 34px 18px;
         height: 40px;
         font-size: 15px;
         font-weight: 600;
-        margin: 8px 0px 36px 0px;
+        margin: 8px 0px 12px 0px;
 
     }
 
@@ -440,7 +462,7 @@ margin: 34px 18px;
         margin-top: 0px;
     }
 
-    .programmingLanguage{
+    .programmingLanguage {
         width: auto;
         height: 36px;
     }
@@ -449,10 +471,94 @@ margin: 34px 18px;
         font-size: 44px;
         line-height: 24px;
     }
-    
-    .ourNumber p{
+
+    .ourNumber p {
         font-size: 14px;
         line-height: 20px;
     }
 
+    .sectionHeading {
+        padding: 24px 12px;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0;
+    }
+    .longsection{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .sectionText {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 400;
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .unique {
+        text-align: center;
+        padding: 0px 16px;
+        background-color: #F0F2F5;
+        box-shadow: 7px 7px 30px 0 rgb(240, 242, 245 / 15%);
+        width: 330px;
+        margin-bottom: 28px;
+    }
+    
+    .unique img {
+        width: 56px;
+        margin: 12px 0px 2px 0px;
+    }
+    
+    .unique h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .unique p {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .whyBox {
+        padding: 12px;
+        margin: 24px 16px;
+    }
+
+    .PathHeading {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .pathBox {
+        width: 336px;
+        height: 274px;
+        margin: 18px 18px;
+    }
+    
+  
+
+    
+    .pathTop h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .pathTop img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .pathContent p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .pathContent i {
+        font-size: 15px;        line-height: 18px;
+    }
+    
+    
 }
