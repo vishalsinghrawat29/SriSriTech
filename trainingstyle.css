@@ -145,6 +145,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 16px;
 }
 
 .ourNumber h1 {
@@ -423,6 +424,17 @@ margin: 34px 18px;
         display: none;
     }
 
+    .book {
+        margin-top: 30px;
+        border: none;
+        width: 180px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 12px 0px 18px 0px;
+
+    }
+
     .company_logo {
         height: 64px;
         margin-top: 0px;
@@ -431,6 +443,16 @@ margin: 34px 18px;
     .programmingLanguage{
         width: auto;
         height: 36px;
+    }
+
+    .ourNumber h1 {
+        font-size: 44px;
+        line-height: 24px;
+    }
+    
+    .ourNumber p{
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
