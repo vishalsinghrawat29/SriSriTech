@@ -292,6 +292,19 @@ a {
 
 @media (max-width: 947px) {
 
+    .aboutHead {
+        padding: 28% 5% 1% 5%;    
+    }
+    
+       
+    .aboutHead h1 span {
+        font-size: 64px;
+        line-height: 64*1.5px;
+    }
+    .aboutText p{
+        font-size: 17px;
+        line-height: 26px;
+    }
 
     .book {
         border: none;
@@ -332,11 +345,6 @@ a {
     }
 
 
-
-    .aboutHead h1 span {
-        font-size: 32px;
-        line-height: 32*1.2px;
-    }
 
     .bookCta h3 {
         font-size: 28px;
@@ -399,10 +407,8 @@ a {
         border: none;
         font-size: 14px;
         font-weight: 500;
-        background-color: #fff;
-        color: var(--secondary2);
         display: inline-block;
-        width: 84px;
+        width: 105px;
     }
 
 
