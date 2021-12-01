@@ -50,6 +50,32 @@ a {
     user-select: none;
 }
 
+.left_box {
+    padding: 18px 44px;
+    margin-top: 140px;
+}
+
+.left_box h1 {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.left_box p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    width: 72%;
+}
+
+.headerImage {
+    width: 76%;
+    height: auto;
+    margin: 22% 12% 4% 12%;
+}
+
+
 .aboutHead {
     padding: 7% 5% 1% 5%;
     text-align: center;
