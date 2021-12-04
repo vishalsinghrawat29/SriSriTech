@@ -81,3 +81,24 @@ text-align: center;
 .thankcontent a:hover{
     background-color: var(--secondary1);
 }
+@media (max-width: 947px) {
+
+    .thankcontent h1{
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 700;
+        margin: 12px 0px;
+    }
+    .thankcontent h2{
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: 600;
+        margin: 18px 0px 0px 0px;
+    }
+    .thankcontent p{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+        margin-bottom: 36px;
+    }
+}
