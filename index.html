@@ -123,12 +123,10 @@
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <div class="about_box">
-                        <p>Srisritech India Private Limited is the India Member Firm of the global network of SST firms,
+                        <p>SriSriTech India Private Limited is the India Member Firm of the global network of SST firms,
                             a group of independent consulting firms helping companies <b>solve problems in finance,
                                 technology, operations, governance, risk, and internal audit.</b></p>
-                        <p>SST Member Firms are separate and independent legal entities, are not agents of other firms
-                            in the SST network, and have no authority to obligate or bind other firms in the Protiviti
-                            network.
+                        <p>SST Member Firms are separate and independent legal entities, are not agents of other firms in the SST network, and have no authority to obligate or bind other firms in the network.
                         </p>
                     </div>
                 </div>
@@ -235,7 +233,7 @@
             <div class="row flex-column-reverse flex-md-row">
                 <div class="col-md-6 col-lg-7">
                     <div class="whyBox">
-                        <p>SriSri Tech simplifies and accelerates the deployment of public and private cloud with the
+                        <p>SriSriTech simplifies and accelerates the deployment of public and private cloud with the
                             same management and security. With one-click management and automation, you can easily build
                             and manage your own cloud.
                         </p>
@@ -336,20 +334,22 @@
                             <div class="col-md-6 mt-3">
                                 <input type="email" name="email" placeholder="Email" class="form-control contactInput">
                             </div>
-                            <div class="col-md-12 mt-3">
-                                <select class="form-select selectinput" name="subject">
-                                    <option value="" hidden>How can We help you?</option>
-                                    <option value="Application
-                                    Services">Application
+                            <div class="col-md-6 mt-3">
+                                <select class="form-select selectinput" name="subject" id="mainService" onchange="changeValue()">
+                                    <option value="" hidden>Services you are interested in...</option>
+                                    <option value="Application Services">Application
                                         Services</option>
-                                    <option value="IT
-                                    Consultancy">IT
-                                        Consultancy</option>
-                                    <option value="Data
-                                    Analytics">Data
-                                        Analytics</option>
+                                    <option value="IT Consultancy">IT
+                                    Consultancy</option>
+                                    <option value="Data Analytics">Data
+                                    Analytics</option>
                                     <option value="Others">Others</option>
 
+                                </select>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <select class="form-select selectinput" name="subject" id="subService">
+                                    <option value="" hidden>Choose a sub-service</option>
                                 </select>
                             </div>
                             <div class="col-md-12 mt-3">
@@ -386,6 +386,8 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <script src="navscript.js"></script>
+    <script src="contact.js"></script>
+
     <!-- <script src="typing.js"></script> -->
 
 </body>
